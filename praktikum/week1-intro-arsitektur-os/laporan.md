@@ -46,7 +46,8 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![https://drive.google.com/file/d/1TDE-xooh9OZ13hbqmKoqtV18SfOZEfVg/view?usp=drivesdk)/
+![(example.png)
+
 
 ---
 
