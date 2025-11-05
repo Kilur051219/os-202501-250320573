@@ -71,9 +71,18 @@ Lakukan git add ., git commit -m "Minggu 4 - Manajemen Proses & User", dan git p
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+whoami
+id
+groups
+sudo adduser praktikan
+sudo passwd praktikan
+ps aux | head -10
+top -n 1
+sleep 1000 &
+ps aux | grep sleep
+kill <PID>	
+pstree -p | head -20
+
 ```
 
 ---
