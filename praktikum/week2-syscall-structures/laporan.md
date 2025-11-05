@@ -113,12 +113,19 @@ Secara keseluruhan, system call berperan sebagai lapisan pengaman yang mengatur 
 ---
 
 ## Quiz
-1. [Pertanyaan 1]  
-   **Jawaban:**  
-2. [Pertanyaan 2]  
-   **Jawaban:**  
-3. [Pertanyaan 3]  
-   **Jawaban:**  
+
+1. Apa fungsi utama system call dalam sistem operasi?
+Fungsi utama dari system call dalam sistem operasi adalah untuk menjadi jembatan antara aplikasi yang berjalan di user mode dan kernel yang berada di kernel mode. System call memungkinkan aplikasi untuk mengakses fitur-fitur yang ada di sistem operasi, seperti membaca atau menulis file, mengalokasikan memori, atau mengelola proses, tanpa memberikan akses langsung ke perangkat keras atau bagian inti sistem. Dengan kata lain, system call memastikan bahwa aplikasi dapat berinteraksi dengan kernel secara terkontrol, yang sangat penting untuk menjaga keamanan dan stabilitas sistem. Kernel memverifikasi setiap permintaan yang datang dari aplikasi untuk memastikan bahwa operasi yang dilakukan sah dan tidak membahayakan sistem.
+
+2. Sebutkan 4 kategori system call yang umum digunakan.
+Ada beberapa kategori system call yang sering digunakan dalam sistem operasi, di antaranya:
+•	File Management: Kategori ini mencakup system call yang berhubungan dengan pengelolaan file, seperti membuka, membaca, menulis, dan menutup file. Contoh system call yang termasuk dalam kategori ini adalah open, read, write, dan close.
+•	Process Management: System call dalam kategori ini digunakan untuk mengelola proses, seperti membuat proses baru, menunggu proses selesai, atau mengakhiri proses. Beberapa contoh system call di kategori ini adalah fork, exec, wait, dan exit.
+•	Device Management: Kategori ini berisi system call yang mengelola perangkat keras atau I/O, seperti mengakses perangkat atau mengatur status perangkat. Contoh system call dalam kategori ini adalah ioctl, read, dan write untuk komunikasi dengan perangkat.
+•	Inter-Process Communication (IPC): System call ini digunakan untuk mengatur komunikasi antar proses. Beberapa contoh system call dalam kategori ini adalah pipe, shmget, dan msgget yang memungkinkan proses berbagi data atau berkomunikasi dengan proses lain.
+
+3. Mengapa system call tidak bisa dipanggil langsung oleh user program?
+System call tidak bisa dipanggil langsung oleh program pengguna karena aplikasi yang berjalan di user mode tidak memiliki izin untuk mengakses bagian-bagian kritis dari sistem seperti kernel atau perangkat keras secara langsung. Jika aplikasi bisa langsung memanggil system call, itu berisiko merusak sistem, baik karena kesalahan pemrograman atau potensi ancaman keamanan. Oleh karena itu, system call dirancang untuk menjadi mekanisme yang mengontrol interaksi antara user mode dan kernel mode. Dengan cara ini, kernel dapat memverifikasi dan memastikan bahwa permintaan yang datang dari aplikasi aman dan sah sebelum dieksekusi, sehingga menjaga integritas dan stabilitas sistem operasi secara keseluruhan.
 
 ---
 
