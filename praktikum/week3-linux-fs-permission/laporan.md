@@ -58,9 +58,18 @@ Sistem Linux memberikan kontrol penuh kepada administrator untuk mengatur hak ak
 ## Kode / Perintah
 Tuliskan potongan kode atau perintah utama:
 ```bash
-uname -a
-lsmod | head
-dmesg | head
+pwd
+ls -l
+cd /tmp
+ls -a
+cat /etc/passwd | head -n 5
+echo "Hello <NAME><NIM>" > percobaan.txt
+ls -l percobaan.txt
+chmod 600 percobaan.txt
+ls -l percobaan.txt
+sudo chown root percobaan.txt
+ls -l percobaan.txt
+
 ```
 
 ---
