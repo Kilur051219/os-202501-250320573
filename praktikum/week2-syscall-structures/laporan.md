@@ -68,6 +68,7 @@ Tuliskan potongan kode atau perintah utama:
 strace ls
 strace -e trace=open,read,write,close cat /etc/passwd
 dmesg | tail -n 10
+```
 ---
 
 ## Hasil Eksekusi
@@ -102,7 +103,12 @@ Proses eksekusi system call dimulai ketika aplikasi di user mode mengirimkan per
 ---
 
 ## Kesimpulan
-Tuliskan 2–3 poin kesimpulan dari praktikum ini.
+Dari praktikum ini, dapat disimpulkan bahwa system call adalah mekanisme yang sangat penting dalam menghubungkan aplikasi di user mode dengan kernel di kernel mode. Melalui system call, aplikasi dapat melakukan operasi yang melibatkan perangkat keras dan sumber daya sistem dengan pengawasan kernel, yang menjaga keamanan dan stabilitas sistem operasi.
+
+Praktikum ini juga memperlihatkan berbagai jenis system call yang digunakan untuk pengelolaan file, proses, perangkat, dan komunikasi antar proses. Setiap system call berfungsi untuk memastikan aplikasi dapat berinteraksi dengan sistem secara aman tanpa memberikan akses langsung ke kernel.
+
+Secara keseluruhan, system call berperan sebagai lapisan pengaman yang mengatur interaksi antara user mode dan kernel mode, mencegah aplikasi melakukan tindakan yang bisa merusak atau mengakses data sensitif. Dengan adanya system call, sistem operasi dapat berfungsi dengan lebih aman dan terkontrol.
+
 
 ---
 
