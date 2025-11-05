@@ -46,7 +46,10 @@ dmesg | head
 
 ## Hasil Eksekusi
 Sertakan screenshot hasil percobaan atau diagram:
-![(example.png)
+
+![Screenshot hasil](screenshots/WEEK.1.png)
+
+![Screenshot hasil](screenshots/arsitektur_so.drawio.png)
 
 
 ---
