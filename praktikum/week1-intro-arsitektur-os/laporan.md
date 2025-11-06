@@ -1,6 +1,6 @@
 
 # Laporan Praktikum Minggu [1]
-Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
+Topik: Arsitektur Sistem Operasi
 
 ---
 
@@ -12,15 +12,20 @@ Topik: [Tuliskan judul topik, misalnya "Arsitektur Sistem Operasi dan Kernel"]
 ---
 
 ## Tujuan  
-> Mengidentifikasi komponen utama OS (kernel, system call, device driver, file system).
+
+Tujuan praktikum ini adalah untuk memahami arsitektur dasar sistem operasi serta cara kerja komponen-komponen utamanya dalam mengelola sumber daya komputer. Melalui kegiatan ini, saya belajar bagaimana interaksi terjadi antara pengguna, aplikasi, kernel, dan perangkat keras. Praktikum ini juga bertujuan agar saya dapat mengenali perbedaan antara model arsitektur sistem operasi seperti monolithic kernel, layered approach, dan microkernel, serta memahami konsep perbedaan mode eksekusi antara user mode dan kernel mode. Selain itu, praktikum ini membantu saya menggambarkan arsitektur sistem operasi secara visual agar lebih memahami hubungan antara tiap lapisan dalam sistem.
 
 ---
 
 ## Dasar Teori
 1.komponen arsitektur operasi system
+
 2.perbedaan antara linux dan windows
+
 3.peran operasi siste dalam arsitektur komputer
+
 4.mempelajari hubungan antara user-system call-kernel-hardware
+
 5.perbedaan antara monolithic kernel, microkernel, dan layered architecture.
 
 ---
