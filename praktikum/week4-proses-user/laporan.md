@@ -6,8 +6,8 @@ Topik: [Manajemen Proses dan User di Linux]
 
 ## Identitas
 - **Nama**  : Rizki Fernanda Rahardi
-- **NIM**   : [250320573]  
-- **Kelas** : [1DSRA]
+- **NIM**   : 250320573
+- **Kelas** : 1DSRA
 
 ---
 
