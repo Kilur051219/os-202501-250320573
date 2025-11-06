@@ -5,9 +5,9 @@ Topik: Arsitektur Sistem Operasi
 ---
 
 ## Identitas
-- **Nama**  : [Rizki Fernanda Rahardi]  
-- **NIM**   : [250320573]  
-- **Kelas** : [1DSRA]
+- **Nama**  : Rizki Fernanda Rahardi 
+- **NIM**   : 250320573  
+- **Kelas** : 1DSRA
 
 ---
 
